@@ -1,24 +1,24 @@
-# Docker Certified Associate Exam Preparation Guide (v1.0.1)
+# Guia traduzido de Preparação do exame Docker Certified Associate (v1.0.1)
 
-This guide is intended to be a point of knowledge for everyone who wants to pass [Docker Certified Associate Exam](https://blog.docker.com/2017/09/introducing-docker-global-professional-certification-program/). The main idea is to provide the right answer/link to every "question" in every domain. Feel free to add useful links below. 
+Este guia destina-se a ser um ponto de conhecimento para todos que querem passar no [Docker Certified Associate Exam](https://blog.docker.com/2017/09/introducing-docker-global-professional-certification-program/). A idéia principal é fornecer a resposta/link correto para cada "pergunta" em todos os domínios. Sinta-se à vontade para adicionar links úteis abaixo. 
 
 ## Table of Contents:
 1. [Orchestration](https://github.com/Evalle/DCA/blob/master/README.md#domain-1-orchestration-25-of-exam)
-2. [Image Creation, Management, and Registry](https://github.com/Evalle/DCA/blob/master/README.md#domain-2-image-creation-management-and-registry-20-of-exam)
-3. [Installation and Configuration](https://github.com/Evalle/DCA/blob/master/README.md#domain-3-installation-and-configuration-15-of-exam)
+2. [Criação de imagem, Management, e Registry](https://github.com/Evalle/DCA/blob/master/README.md#domain-2-image-creation-management-and-registry-20-of-exam)
+3. [Instalação e configuração](https://github.com/Evalle/DCA/blob/master/README.md#domain-3-installation-and-configuration-15-of-exam)
 4. [Networking](https://github.com/Evalle/DCA/blob/master/README.md#domain-4-networking-15-of-exam)
 5. [Security](https://github.com/Evalle/DCA/blob/master/README.md#domain-5-security-15-of-exam)
-6. [Storage and Volumes](https://github.com/Evalle/DCA/blob/master/README.md#domain-6-storage-and-volumes-10-of-exam)
+6. [Storage e Volumes](https://github.com/Evalle/DCA/blob/master/README.md#domain-6-storage-and-volumes-10-of-exam)
 7. [Links](https://github.com/evalle/dca#links)
 
 ## Content
 
 ### Domain 1: Orchestration (25% of exam)
-- [Complete the setup of a swarm mode cluster, with managers and worker nodes](https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/)
-- [State the differences between running a container vs running a service](https://stackoverflow.com/a/43408904)
-- [Demonstrate steps to lock a swarm cluster](https://docs.docker.com/engine/swarm/swarm_manager_locking/)
-- [Extend the instructions to run individual containers into running services under swarm](https://docs.docker.com/engine/swarm/swarm-tutorial/deploy-service/)
-- [Interpret the output of "docker inspect" commands](https://docs.docker.com/engine/swarm/swarm-tutorial/inspect-service/)
+- [Configuração para um cluster em modo swarm, com managers e worker nodes](https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/)
+- [Qual a diferença entre rodar um container e rodar um service](https://stackoverflow.com/a/43408904)
+- [Etapas de demostração para bloquear um cluster swarm](https://docs.docker.com/engine/swarm/swarm_manager_locking/)
+- [Instruções extendidas para rodar containers individuais e services em swarm](https://docs.docker.com/engine/swarm/swarm-tutorial/deploy-service/)
+- [Interpretar as saídas do comando "docker inspect" commands](https://docs.docker.com/engine/swarm/swarm-tutorial/inspect-service/)
 - [Convert an application deployment into a stack file using a YAML compose file with
 "docker stack deploy"](https://docs.docker.com/engine/reference/commandline/stack_deploy/)
 - [Manipulate a running stack of services](https://docs.docker.com/engine/reference/commandline/stack_services/#related-commands)
